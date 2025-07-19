@@ -105,7 +105,7 @@ def purchase(pid):
         db.session.add(order)
         db.session.commit()
         flash("Purchase Successful!","success")
-        return redirect('/farmerdetails')
+        return redirect('/orders')
     return render_template('index.html')
 
 @app.route('/addagroproduct',methods=['POST','GET'])
