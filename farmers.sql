@@ -60,11 +60,6 @@ CREATE TABLE `farming` (
 -- Dumping data for table `farming`
 --
 
-INSERT INTO `farming` (`fid`, `farmingtype`) VALUES
-(1, 'Seed Farming'),
-(2, 'coccon'),
-(3, 'silk');
-
 -- --------------------------------------------------------
 
 --
@@ -173,11 +168,6 @@ CREATE TABLE `orders` (
 --
 -- Dumping data for table `farming`
 --
-
-INSERT INTO `farming` (`fid`, `farmingtype`) VALUES
-(1, 'Seed Farming'),
-(2, 'coccon'),
-(3, 'silk');
 
 -- --------------------------------------------------------
 
