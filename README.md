@@ -32,7 +32,7 @@ FarmerDatabase/
    - Make sure you have Python installed.
    - Install required packages (e.g., Flask):
      ```
-     pip install flask
+     pip install -r requirements.txt
      ```
 4. **Run the application:**
    ```
