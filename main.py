@@ -4,12 +4,13 @@ from flask_login import UserMixin, login_user, logout_user, LoginManager, login_
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import login_manager
 from random import randint
+from flask_cors import CORS
 
 
 # MY db connection
 local_server= True
 app = Flask(__name__)
-app.secret_key='harshithbhaskar'
+app.secret_key='@hu$^%&82y#^doa)c9sa_;#k93'
 
 
 # this is for getting unique user access
@@ -271,5 +272,6 @@ def test():
     except:
         return 'My db is not Connected'
 
+CORS(app)
 
-app.run(debug=True)    
+app.run(debug=False)    
